@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.answer {
+  display: none;
+  justify-content: center;
+  margin-top: 50px;
+}
+body {
+  overflow-x: hidden;
+  background: rgb(182, 182, 182);
+}
+.poster {
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5%;
+  box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.4);
+}
+.inside_answer {
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.4);
+}
+.btn {
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid #4caf50;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 10px;
+}
+.btn:hover {
+  border: 2px solid #4caf50;
+  background-color: white;
+  color: #4caf50;
+}
+.icon {
+  height: 100px;
+  width: 100px;
+}
+.title {
+  text-align: center;
+  font-size: 60px;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.input {
+  padding: 5px;
+  font-size: 20px;
+}
+.poster p {
+  font-size: 20px;
+}
