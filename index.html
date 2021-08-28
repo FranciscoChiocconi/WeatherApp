@@ -14,21 +14,21 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1 class="title">Weather Web App ⛈</h1>
     <div class="main">
-      <div class="poster">
-        <form action="">
-          <p>Type a Location for the weather</p>
+        <form class = "form" action="">
           <label for="fname"></label><br />
-          <input type="text" id="fname" class="input" value="" /><br />
+          <input type="text" id="fname" class="input" value="" placeholder="Enter Your City" /><br />
         </form>
-        <button class="btn">Submit</button>
-      </div>
+        <!--<button class="btn">Submit</button>-->
     </div>
     <div class="answer">
       <div class="inside_answer">
-        <img class="icon" />
-        <p class="weather"></p>
+        <div style="display: inline-flex; max-width: 150px;">
+          <h2 class="city"></h2>
+          <img class="icon" />
+        </div>
+        <h2 class="weather"></h2>
+        <h3 class = "weather_description"></h2>
         <p class="temp"></p>
         <p class="min_max"></p>
       </div>
